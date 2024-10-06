@@ -6,6 +6,9 @@ authors = ["Kazuki Kijima <kazukiyoshida96@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
+[tool.poetry.scripts]
+flashcard = "flashcard.main:main"
+
 [tool.poetry.dependencies]
 python = "^3.12"
 pydantic = "^2.9.2"

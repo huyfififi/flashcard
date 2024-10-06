@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
 
-class Card(BaseModel):
+class FlashCard(BaseModel):
     question: str
     answer: str
